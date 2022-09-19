@@ -44,9 +44,9 @@ return iatExtension({
 		},
 		category1 : 
 		{
-			name : 'Science', 
+			name : 'Medicine', 
 			title : {
-				media : {word : 'Science'}, 
+				media : {word : 'Medicine'}, 
 				css : {color:'#31940F','font-size':'1.8em'}, 
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
