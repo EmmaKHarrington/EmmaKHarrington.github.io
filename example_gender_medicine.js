@@ -1,7 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension){
-    var API = new APIConstructor();
-
-	define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension){
+define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension){
 	var API = new APIConstructor();
 
 return iatExtension({
@@ -47,40 +44,40 @@ return iatExtension({
 		},
 		category1 : 
 		{
-			name : 'Teaching', 
+			name : 'Science', 
 			title : {
-				media : {word : 'Teaching'}, 
+				media : {word : 'Science'}, 
 				css : {color:'#31940F','font-size':'1.8em'}, 
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-				{word: 'Kindergarten'},
-				{word: 'HS'},
-				{word: 'Principal'},
-				{word: 'Professor'},
-				{word: 'MS'},
-				{word: 'PreK'},
-				{word: 'Childcare'}
+				{word: 'Astronomy'},
+				{word: 'Math'},
+				{word: 'Chemistry'},
+				{word: 'Physics'},
+				{word: 'Biology'},
+				{word: 'Geology'},
+				{word: 'Engineering'}
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'2.3em'} 
 		},
 		category2 : 
 		{
-			name : 'Medicine', 
+			name : 'Liberal Arts', 
 			title : {
-				media : {word : 'Medicine'}, 
+				media : {word : 'Liberal Arts'}, 
 				css : {color:'#31940F','font-size':'1.8em'}, 
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-				{word: 'Nurse'},
-				{word: 'Doctor'},
-				{word: 'PA'},
-				{word: 'EMT'},
-				{word: 'RN'},
-				{word: 'Surgeon'}, 
-				{word: 'Aide'}
+				{word: 'History'},
+				{word: 'Arts'},
+				{word: 'Humanities'},
+				{word: 'English'},
+				{word: 'Philosophy'},
+				{word: 'Music'}, 
+				{word: 'Literature'}
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'2.3em'}
