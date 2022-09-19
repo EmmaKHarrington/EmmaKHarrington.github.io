@@ -69,7 +69,7 @@ return iatExtension({
 		{
 			name : 'Medicine', 
 			title : {
-				media : {word : 'Medical Jobs'}, 
+				media : {word : 'Medicine'}, 
 				css : {color:'#31940F','font-size':'1.8em'}, 
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
