@@ -64,9 +64,9 @@ return iatExtension({
 		},
 		category2 : 
 		{
-			name : 'Liberal Arts', 
+			name : 'Humanities', 
 			title : {
-				media : {word : 'Liberal Arts'}, 
+				media : {word : 'Humanities'}, 
 				css : {color:'#31940F','font-size':'1.8em'}, 
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
